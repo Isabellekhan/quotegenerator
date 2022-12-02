@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Staatliches", cursive;
+
+  font-size: 18px;
+  color: #a9af7e;
+  background-color: #557153;
+}
+.welcome {
+  text-align: center;
+  font-size: 2rem;
+  background-color: #7d8f69;
+  border: 1rem solid #a9af7e;
+  margin: 2rem;
+}
+.container {
+  margin: 200px auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-box {
+  border: 2px solid #ddd;
+  padding: 30px 20px;
+  margin-bottom: 20px;
+  background-color: #7d8f69;
+  border: 1rem solid #a9af7e;
+}
+#quote {
+  color: #a9af7e;
+  text-align: center;
+}
+#author {
+  float: right;
+  color: #a9af7e;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+#btn {
+  align-self: center;
+  border: 2px solid #a9af7e;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: #a9af7e;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #7d8f69;
+}
+
+#btn:focus {
+  outline: none;
+}

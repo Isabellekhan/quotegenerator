@@ -11,14 +11,13 @@ body {
   font-family: "Staatliches", cursive;
 
   font-size: 18px;
-  color: #a9af7e;
-  background-color: #557153;
+  color: white;
+  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
 }
 .welcome {
   text-align: center;
   font-size: 2rem;
-  background-color: #7d8f69;
-  border: 1rem solid #a9af7e;
+
   margin: 2rem;
 }
 .container {
@@ -29,19 +28,20 @@ body {
 }
 
 .quote-box {
-  border: 2px solid #ddd;
+  border: 2px solid white;
   padding: 30px 20px;
   margin-bottom: 20px;
-  background-color: #7d8f69;
-  border: 1rem solid #a9af7e;
+  background: #efd5ff;
+  border: 1rem solid plum;
+  border-radius: 50px;
 }
 #quote {
-  color: #a9af7e;
+  color: #a33c9c;
   text-align: center;
 }
 #author {
   float: right;
-  color: #a9af7e;
+  color: #a33c9c;
   font-weight: bold;
   font-style: italic;
   margin-top: 10px;
@@ -49,13 +49,15 @@ body {
 
 #btn {
   align-self: center;
-  border: 2px solid #a9af7e;
+  border: solid plum;
+
   padding: 10px 15px;
   text-transform: uppercase;
-  color: #a9af7e;
+  color: #a33c9c;
   font-weight: bold;
   cursor: pointer;
-  background-color: #7d8f69;
+  background-color: plum;
+  margin-top: 40px;
 }
 
 #btn:focus {
